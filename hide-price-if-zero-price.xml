@@ -44,7 +44,7 @@
 			<button type="button" id="button-cart" data-loading-text="{{ text_loading }}" class="btn btn-primary btn-lg btn-block">{{ button_cart }}</button>
 			]]></search>
 			<add position="replace"><![CDATA[
-			{% if product.price is not empty %}
+			{% if price is not empty %}
 			<button type="button" id="button-cart" data-loading-text="{{ text_loading }}" class="btn btn-primary btn-lg btn-block">{{ button_cart }}</button>
 			{% endif %}
 			]]></add>
