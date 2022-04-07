@@ -1,7 +1,2 @@
-# 🇧🇷 Hide price if zero
- Essa modificação esconde o valor, quando o valor for zero.
- 
- - Feito para Opencart 3xxx
- - Testando em oc 3xxx
- - Esconde o preço se 0
- - Esconde o botão comprar se o preço for 0
+# oc-hide-price-if-zero
+ Essa pequena modificação vai esconder o valor do produto caso ele seja 0,, isso é útil caso você esqueca de adicionar o preço de venda por algum motivo e o cliente possa comprar o produto por custar nada.
