@@ -1,0 +1,18 @@
+<modification>
+	<name>Show price FREE for zero amount</name>
+	<version>1.0 (Initial)</version>
+	<link>https://isenselabs.com</link>
+	<author>iSenseLabs</author>
+	<code>isenselabs_price_free</code>
+  
+	<file path="system/library/cart/currency.php">
+		<operation>
+			<search><![CDATA[$string = '';]]></search>
+			<add position="after"><![CDATA[
+				if ((float)$number == 0 && ($format)) {
+					return '';
+				}
+			]]></add>
+		</operation>
+	</file>
+</modification>
